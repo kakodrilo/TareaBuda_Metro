@@ -21,12 +21,6 @@ for i in L:
         node = list(filter(lambda x: x[0]==n,L))[0]
         red[i[0]]['nodes'].append(n)
 
-for i in red.keys():
-    st = i + ' ' + red[i]['color'] + ' -> '
-    for n in red[i]['nodes']:
-        st += n+' '
-    print(st)
-
 inicio = input('Ingrese estación de inicio:')
 final = input('Ingrese estación de termino:')
 color = input('Ingrese color del tren (rojo o verde) (opcional):')
