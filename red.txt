@@ -1,0 +1,10 @@
+9
+A 1 B null
+B 2 A C null
+C 3 B D G null
+D 2 C E null
+E 2 D F null
+F 2 E I null
+G 2 C H verde
+H 2 G I rojo
+I 2 H F verde
