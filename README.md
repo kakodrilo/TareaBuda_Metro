@@ -15,6 +15,7 @@ Por último, para evaluar el correcto funcionamiento de las funciones construida
 Al tratarse sobre una red de metros se consideró la construcción de un grafo a través de una lista de adyacencia. El archivo debe contener la cantidad de estaciones, seguido por el nombre de estación, a qué otras estaciones está conectada y el color de la estación (rojo, verde o null.
 Por ejemplo, para construir la red:
 ![](https://cdn.discordapp.com/attachments/425837581557694474/924036023623761960/unknown.png)
+
 se considera el siguiente archivo:
 <pre><code>9
 A 1 B null
